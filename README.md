@@ -14,6 +14,11 @@ As a programmer, I value shallow over deep type heirarchies, and I think that de
 
 I also do not pattern my code to death. By importing `java.awt.Polygon` in cells I coupled the view with the model to simplify the implementation of GraphMaps (i.e. this does not use MVC). Though I do think not using MVC adds a bit of code smell, overall I am proud of this code.
 
+## Screenshot
+
+![An example game running on a square lattice.](/Arena.png)
+
+
 ## License
 
 Licensed under the MIT license.
