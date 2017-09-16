@@ -1,9 +1,9 @@
 # SnakeCA
 
-##Introduction
+## Introduction
 I wrote this code as a prototype for a homework assignment for undergraduate students enrolled in an Introduction to Object Oriented Programming course. Below is a class diagram describing the overall organization:
 
-![A Class Diagram for this repository.][ClassDiagram.png]
+![A Class Diagram for this repository.](/ClassDiagram.png)
 
 As a programmer, I value shallow over deep type heirarchies, and I think that dependency injection leads to better organized code. In other words, I try to avoid implementation inheritance. I also believe that OO is best learned through design patterns. For example:
 
@@ -14,6 +14,6 @@ As a programmer, I value shallow over deep type heirarchies, and I think that de
 
 I also do not pattern my code to death. By importing `java.awt.Polygon` in cells I coupled the view with the model to simplify the implementation of GraphMaps (i.e. this does not use MVC). Though I do think not using MVC adds a bit of code smell, overall I am proud of this code.
 
-##License
+## License
 
 Licensed under the MIT license.
